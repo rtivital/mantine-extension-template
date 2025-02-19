@@ -1,4 +1,3 @@
-import React from 'react';
 import { DocsTabs } from '../components/DocsTabs';
 import { PageHeader } from '../components/PageHeader';
 import { Shell } from '../components/Shell';
@@ -15,6 +14,7 @@ export default function HomePage() {
         docgen={docgen}
         componentsProps={['TestComponent']}
         componentsStyles={['TestComponent']}
+        componentPrefix="TestComponent"
         stylesApiData={STYLES_API_DATA}
       >
         <Docs />
